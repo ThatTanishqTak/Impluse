@@ -141,10 +141,12 @@
   <ItemGroup>
     <ClCompile Include="src\globals.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\player.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="headers\gameobjects.hpp" />
-    <ClInclude Include="headers\globals.hpp" />
+    <ClInclude Include="headers\gameobjects.h" />
+    <ClInclude Include="headers\globals.h" />
+    <ClInclude Include="headers\player.h" />
     <ClInclude Include="include\AudioDevice.hpp" />
     <ClInclude Include="include\AudioStream.hpp" />
     <ClInclude Include="include\BoundingBox.hpp" />

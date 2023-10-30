@@ -1,5 +1,5 @@
-#ifndef GAMEOBJECTS_H
-#define GAMEOBJECTS_H
+#ifndef GAMEOBJECTS_HPP
+#define GAMEOBJECTS_HPP
 
 class GameObjects
 {

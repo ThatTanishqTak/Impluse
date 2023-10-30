@@ -1,20 +1,27 @@
 #include "../include/raylib-cpp.hpp"
-#include "../headers/globals.hpp"
-#include "../headers/gameobjects.hpp"
+#include "../headers/globals.h"
+#include "../headers/gameobjects.h"
+#include "../headers/player.h"
 
 int main()
 {
 	raylib::Window window(windowWidth, windowHeight, "Impulse");
 	SetTargetFPS(60);
 
+	Player player;
+
 	while (!window.ShouldClose())
 	{
+		for (GameObjects* gameObjects : gameObjects) { gameObjects->update(); }
+
 		window.BeginDrawing();
-			window.ClearBackground(BLACK);
+		window.ClearBackground(BLACK);
 
-			BeginMode3D();
+		BeginMode3D(gameCam);
 
-			EndMode3D();
+		for (GameObjects* gameObjects : gameObjects) { gameObjects->render(); }
+
+		EndMode3D();
 
 		window.EndDrawing();
 	}

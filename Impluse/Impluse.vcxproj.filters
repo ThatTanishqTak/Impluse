@@ -21,6 +21,9 @@
     <ClCompile Include="src\globals.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\AudioDevice.hpp">
@@ -152,10 +155,13 @@
     <ClInclude Include="include\globals.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="headers\gameobjects.hpp">
+    <ClInclude Include="headers\gameobjects.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="headers\globals.hpp">
+    <ClInclude Include="headers\globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\player.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
