@@ -1,16 +1,14 @@
-// The player class
-
-#ifndef PLAYER_HPP
-#define PLAYER_HPP
+#ifndef GROUND_H
+#define GROUND_H
 
 #include "raylib-cpp.hpp"
 #include "globals.h"
 
-class Player : public GameObjects
+class Ground : public GameObjects
 {
 public:
-	Player();
-	~Player();
+	Ground();
+	~Ground();
 
 	virtual void update();
 	virtual void render();

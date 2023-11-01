@@ -1,10 +1,11 @@
 // This is the main game file
 
 // All the headers and include files
-#include "../include/raylib-cpp.hpp" // Now using the actual raylib C++ library
+#include "../include/raylib-cpp.hpp"
 #include "../headers/globals.h"						
-#include "../headers/gameobjects.h"					/* I HATE THIS ALL OF THIS */
+#include "../headers/gameobjects.h"					/* I HATE HEADERS AND INCLUDES */
 #include "../headers/player.h"
+#include "../headers/ground.h"
 
 int main()
 {
@@ -12,6 +13,7 @@ int main()
 	SetTargetFPS(60); // Lock FPS
 
 	// Declare the game objects
+	Ground ground;
 	Player player;
 
 	// Main game loop

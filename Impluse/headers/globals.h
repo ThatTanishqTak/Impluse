@@ -26,6 +26,11 @@ extern float fovY;
 extern raylib::Camera3D gameCam;
 /*-------------------------------------------------------------------------------------------------------------------------------------------------*/
 
+// Ground variables
+extern raylib::Vector3 groundSize;
+extern raylib::Vector3 groundPos;
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 // Player variables
 extern raylib::Vector3 playerSize;
 extern raylib::Vector3 playerPos;

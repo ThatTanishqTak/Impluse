@@ -140,12 +140,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\globals.cpp" />
+    <ClCompile Include="src\ground.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\player.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="headers\gameobjects.h" />
     <ClInclude Include="headers\globals.h" />
+    <ClInclude Include="headers\ground.h" />
     <ClInclude Include="headers\player.h" />
     <ClInclude Include="include\AudioDevice.hpp" />
     <ClInclude Include="include\AudioStream.hpp" />
