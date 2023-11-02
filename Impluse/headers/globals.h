@@ -18,6 +18,11 @@ extern const int windowWidth;
 extern const int windowHeight;
 /*-------------------------------------------------------------------------------------------------------------------------------------------------*/
 
+// Game variables
+extern float gravity;
+extern float acceleration;
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 // Game camera variables
 extern raylib::Vector3 camPos;
 extern raylib::Vector3 camTar;
@@ -34,6 +39,8 @@ extern raylib::Vector3 groundPos;
 // Player variables
 extern raylib::Vector3 playerSize;
 extern raylib::Vector3 playerPos;
+extern raylib::Vector3 playerVelocity;
+extern bool isJumping;
 /*-------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 #endif

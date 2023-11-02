@@ -13,6 +13,11 @@ const int windowWidth{ 1080 };
 const int windowHeight{ 720 };
 /*-------------------------------------------------------------------------------------------------------------------------------------------------*/
 
+// Game variables
+float gravity = 20.0f;
+float acceleration = 10.0f;
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 // Game camera variables
 raylib::Vector3 camPos{ 0.0f, 5.0f, 10.0f };
 raylib::Vector3 camTar{ 0.0f, 1.0f, 0.0f };
@@ -29,4 +34,6 @@ raylib::Vector3 groundPos{ 0.0f, 0.0f, 0.0f };
 // Player variables
 raylib::Vector3 playerSize{ 1.0f, 1.0f, 1.0f };
 raylib::Vector3 playerPos{ 0.0f, 1.0f, 0.0f };
+raylib::Vector3 playerVelocity{ 0.0f, 0.0f, 0.0f };
+bool isJumping{ false };
 /*-------------------------------------------------------------------------------------------------------------------------------------------------*/
